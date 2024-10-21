@@ -1,0 +1,5 @@
+.slick-dots .slick-active div {
+  background-color: #000 !important;
+  width: 30px !important;
+  height: 5px !important;
+}

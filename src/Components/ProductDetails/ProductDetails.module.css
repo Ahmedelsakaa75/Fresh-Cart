@@ -1,0 +1,36 @@
+.mainImageContainer {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.mainImage {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.thumbnailSlider {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.thumbnail {
+  cursor: pointer;
+}
+
+.thumbnailImage {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  padding: 3px;
+  transition: border-color 0.3s;
+}
+
+.thumbnailImage:hover {
+  border-color: #007bff;
+}
+
+.activeThumbnail {
+  border-color: #007bff;
+}
